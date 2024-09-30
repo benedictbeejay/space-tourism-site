@@ -106,7 +106,6 @@ const Destination = () => {
               <motion.img 
               variants={bodies}
               whileHover="hover"
-              // exit={{x: 1000}}
               className='block mx-auto md:flex  md:w-2/3 sm:w-1/2 w-2/3 mt-4 mb-4' src={planetImages}  alt={name}  title={name} />
             </AnimatePresence>
                        

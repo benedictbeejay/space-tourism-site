@@ -5,7 +5,6 @@ import {CgMenuLeft} from "react-icons/cg"
 import {motion} from 'framer-motion'
 
 
-
 const Header = () => {
 
   const handleClick = () =>  {
@@ -27,7 +26,7 @@ const Header = () => {
           <ul className='md:flex md:max-w-56 md:absolute right-96 md:mr-20  md:h-full'>
             <motion.li
               className='list-item md:border-b-4 md:border-white/0 md:hover:border-white/100 duration-300'>
-              <Link to="/" className='text-white md:flex md:items-center md:relative md:top-1/2 md:-translate-y-1/2   flex justify-center'>
+              <Link to="/" className='text-white md:flex md:items-center md:relative md:top-1/2 md:-translate-y-1/2 flex justify-center'>
                 <span className="md:text-2xl md:font-bold mr-2">00</span> Home
               </Link>
             </motion.li>
